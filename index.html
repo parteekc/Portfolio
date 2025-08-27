@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Parteek Chhabra — Portfolio</title>
+  <meta name="description" content="Full-stack developer portfolio — .NET, Angular, Azure, SQL." />
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="glass">
+    <div class="container nav">
+      <a class="logo" href="#home" aria-label="Parteek logo">
+        <img src="images/logo.svg" alt="Parteek monogram" width="34" height="34" />
+        <span>Parteek Chhabra</span>
+      </a>
+      <nav aria-label="Main">
+        <ul>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact" class="cta">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="reveal up">
+        <div class="kicker"><span class="dot"></span> Full-Stack Developer</div>
+        <h1>Building modern apps with <span class="highlight">.NET</span>, <span class="highlight">Angular</span> & <span class="highlight">Azure</span></h1>
+        <p>6+ years crafting APIs, data-driven UIs, and cloud-hosted systems. Clean architecture, performance, and DX focused.</p>
+        <div class="chips">
+          <span class="chip">.NET Core</span>
+          <span class="chip">C#</span>
+          <span class="chip">Angular 15+</span>
+          <span class="chip">SQL Server</span>
+          <span class="chip">Azure DevOps</span>
+          <span class="chip">EF Core</span>
+        </div>
+      </div>
+      <aside class="hero-card reveal fade" aria-label="At-a-glance">
+        <ul>
+          <li><b>Recent:</b> Features for an incentive platform used by thousands of channel reps.</li>
+          <li><b>Stack:</b> ASP.NET Core, Angular, EF, SQL, Azure App Service, Key Vault, AAD.</li>
+          <li>Ottawa, ON • <a href="mailto:chhabraparteek@gmail.com">Email</a> • <a href="https://ca.linkedin.com/in/parteekc" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </aside>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="section-title"><span>Skills</span><span class="rule"></span></div>
+      <div class="grid">
+        <div class="col-4 card reveal up">
+          <h3>Back-End</h3>
+          <p class="muted">C#, ASP.NET Core, Web API, Entity Framework, REST.</p>
+          <div class="stack">
+            <span class="tag">.NET 6+</span>
+            <span class="tag">EF Core</span>
+            <span class="tag">FluentValidation</span>
+            <span class="tag">AutoMapper</span>
+            <span class="tag">Swagger</span>
+          </div>
+        </div>
+        <div class="col-4 card reveal up">
+          <h3>Front-End</h3>
+          <p class="muted">Angular, RxJS, TypeScript, responsive UI.</p>
+          <div class="stack">
+            <span class="tag">Angular 15+</span>
+            <span class="tag">RxJS</span>
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">Material</span>
+          </div>
+        </div>
+        <div class="col-4 card reveal up">
+          <h3>Data & Cloud</h3>
+          <p class="muted">SQL Server, Azure services, CI/CD, observability.</p>
+          <div class="stack">
+            <span class="tag">SQL/T-SQL</span>
+            <span class="tag">Azure App Service</span>
+            <span class="tag">Azure Storage</span>
+            <span class="tag">Key Vault</span>
+            <span class="tag">App Insights</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="section-title"><span>Sample Projects</span><span class="rule"></span></div>
+      <div class="grid cards-3">
+        <!-- Project 1 -->
+        <article class="card project reveal up">
+          <img src="images/thumb-weather.svg" alt="Weather App thumbnail" />
+          <div class="p-body">
+            <h3>Weather App by City</h3>
+            <p class="muted">Enter a city and see current weather + 5-day forecast.</p>
+            <div class="stack"><span class="tag">JS</span><span class="tag">OpenWeather API</span></div>
+            <div class="p-links">
+              <a href="#" class="btn" aria-disabled="true">Live Demo</a>
+              <a href="https://github.com/parteek/WeatherApp" target="_blank" rel="noopener" class="btn ghost">GitHub</a>
+            </div>
+          </div>
+        </article>
+        <!-- Project 2 -->
+        <article class="card project reveal up">
+          <img src="images/thumb-clock.svg" alt="Digital Clock thumbnail" />
+          <div class="p-body">
+            <h3>Digital Clock</h3>
+            <p class="muted">Simple, responsive digital clock with 12/24h toggle.</p>
+            <div class="stack"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span></div>
+            <div class="p-links">
+              <a href="#" class="btn" aria-disabled="true">Live Demo</a>
+              <a href="https://github.com/parteek/DigitalClock" target="_blank" rel="noopener" class="btn ghost">GitHub</a>
+            </div>
+          </div>
+        </article>
+        <!-- Project 3 -->
+        <article class="card project reveal up">
+          <img src="images/thumb-todo.svg" alt="Todo App thumbnail" />
+          <div class="p-body">
+            <h3>Todo App</h3>
+            <p class="muted">Add, complete, and filter tasks with localStorage sync.</p>
+            <div class="stack"><span class="tag">TypeScript</span><span class="tag">LocalStorage</span></div>
+            <div class="p-links">
+              <a href="#" class="btn" aria-disabled="true">Live Demo</a>
+              <a href="https://github.com/parteek/TodoApp" target="_blank" rel="noopener" class="btn ghost">GitHub</a>
+            </div>
+          </div>
+        </article>
+        <!-- Project 4 -->
+        <article class="card project reveal up">
+          <img src="images/thumb-quotes.svg" alt="Quote Generator thumbnail" />
+          <div class="p-body">
+            <h3>Random Quote Generator</h3>
+            <p class="muted">Fetches quotes from an API with share/copy buttons.</p>
+            <div class="stack"><span class="tag">JS</span><span class="tag">Fetch</span></div>
+            <div class="p-links">
+              <a href="#" class="btn" aria-disabled="true">Live Demo</a>
+              <a href="https://github.com/parteek/Quotes" target="_blank" rel="noopener" class="btn ghost">GitHub</a>
+            </div>
+          </div>
+        </article>
+        <!-- Project 5 -->
+        <article class="card project reveal up">
+          <img src="images/thumb-calculator.svg" alt="Calculator thumbnail" />
+          <div class="p-body">
+            <h3>Calculator</h3>
+            <p class="muted">Basic four-function calculator with keyboard support.</p>
+            <div class="stack"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span></div>
+            <div class="p-links">
+              <a href="#" class="btn" aria-disabled="true">Live Demo</a>
+              <a href="https://github.com/parteek/Calculator" target="_blank" rel="noopener" class="btn ghost">GitHub</a>
+            </div>
+          </div>
+        </article>
+        <!-- Project 6 -->
+        <article class="card project reveal up">
+          <img src="images/thumb-notes.svg" alt="Notes App thumbnail" />
+          <div class="p-body">
+            <h3>Notes App</h3>
+            <p class="muted">Markdown notes with autosave and dark mode.</p>
+            <div class="stack"><span class="tag">Angular</span><span class="tag">LocalStorage</span></div>
+            <div class="p-links">
+              <a href="#" class="btn" aria-disabled="true">Live Demo</a>
+              <a href="https://github.com/parteek/NotesApp" target="_blank" rel="noopener" class="btn ghost">GitHub</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Experience (concise) -->
+    <section id="experience" class="section">
+      <div class="section-title"><span>Experience</span><span class="rule"></span></div>
+      <div class="timeline reveal up">
+        <div class="tl-item">
+          <span class="tl-dot" aria-hidden="true"></span>
+          <div class="tl-head"><b>Sr. Software Developer · ChannelAssist Inc.</b> <span class="muted">Mar 2022 — Jan 2025</span></div>
+          <ul class="muted">
+            <li>Built incentive modules with secure APIs and Angular UIs.</li>
+            <li>Unit tests & CI/CD with Azure DevOps; improved reliability.</li>
+            <li>Diagnostics with App Insights and structured logs.</li>
+          </ul>
+        </div>
+        <div class="tl-item">
+          <span class="tl-dot" aria-hidden="true"></span>
+          <div class="tl-head"><b>Software Developer · Visual Antidote Inc.</b> <span class="muted">Jan 2017 — Feb 2022</span></div>
+          <ul class="muted">
+            <li>Angular components and .NET integrations for portals.</li>
+            <li>Authored SQL procs, views, triggers; SSRS/Power BI reports.</li>
+            <li>Automated emails, nightly jobs, and notifications.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="section-title"><span>Contact</span><span class="rule"></span></div>
+      <div class="grid">
+        <div class="col-6 card reveal up">
+          <form id="contactForm" novalidate>
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your name" required />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" required />
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="How can I help?" required></textarea>
+            </div>
+            <button class="btn" type="submit">Send Message</button>
+            <p id="formNote" class="muted" aria-live="polite"></p>
+          </form>
+        </div>
+        <div class="col-6 card reveal up">
+          <p>Prefer email? Write to <a href="mailto:chhabraparteek@gmail.com">chhabraparteek@gmail.com</a>. I usually reply within a day.</p>
+          <div class="links">
+            <a href="https://ca.linkedin.com/in/parteekc" target="_blank" rel="noopener" class="btn ghost">LinkedIn</a>
+            <a href="#" class="btn ghost" aria-disabled="true">Resume (PDF)</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div>© <span id="y"></span> Parteek Chhabra. Built with HTML/CSS/JS.</div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
